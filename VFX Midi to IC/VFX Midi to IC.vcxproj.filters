@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{e2573806-730d-4d7b-a82f-e2651a68bb56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\third_party\fpsdk">
+      <UniqueIdentifier>{51ab2c77-ae99-43ed-947a-827fe8aa78bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\third_party\vstgui">
+      <UniqueIdentifier>{14b1f61b-e260-4afd-bb4b-937fd82c1ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\third_party\json">
+      <UniqueIdentifier>{31501492-1c3c-402b-a7fa-47f184477757}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\third_party\fpsdk\source\c\fp_plugclass.cpp">
+      <Filter>Source Files\fpsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\vstgui\vstgui\vstgui_win32.cpp">
+      <Filter>Source Files\vstgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\fpsdk\source\c\fp_cplug.cpp">
+      <Filter>Source Files\fpsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="midi_to_ic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="linear_knob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="midi_to_ic_ui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\json\single_include\nlohmann\json.hpp">
+      <Filter>Source Files\third_party\json</Filter>
+    </ClInclude>
+    <ClInclude Include="midi_to_ic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="linear_knob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="midi_to_ic_ui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+</Project>

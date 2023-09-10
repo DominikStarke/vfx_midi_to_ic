@@ -1,0 +1,11 @@
+.vs/
+.vs/**
+x64/
+**/.DS_Store
+_Build/
+Build/
+third_party/fpsdk/source/c/Internal Controller VC/**
+third_party/fpsdk/source/c/Osc3_VC/**
+third_party/fpsdk/source/c/Saw VC/**
+third_party/fpsdk/source/c/FruityGain_VC/**
+_vstgui
